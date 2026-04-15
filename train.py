@@ -114,7 +114,7 @@ if __name__ == '__main__':
     weight_sensitivity = 0.5
     weight_specificity = 0.2
 
-    save_dir = "output/DRIVE/100epoch**1"
+    save_dir = "your_path"
     os.makedirs(save_dir, exist_ok=True)
     val_dir = os.path.join(save_dir, f"val_picture")
     os.makedirs(val_dir, exist_ok=True)
@@ -122,7 +122,7 @@ if __name__ == '__main__':
     logging_dir = "output/logs"
     os.makedirs(logging_dir, exist_ok=True)
 
-    root = "../retinal_vascular/DRIVE"
+    root = "data_path"
 
     accelerator = Accelerator(
         gradient_accumulation_steps=16,

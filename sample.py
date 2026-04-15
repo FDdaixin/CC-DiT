@@ -93,10 +93,10 @@ if __name__ == '__main__':
     save_uncertainty = False
     input_img_channels = 1
 
-    root = r"../retinal_vascular/STARE"
-    load_model_from = r"output/STARE/01_1000epoch_vitpos/epoch1000.pt"
+    root = r"data__path"
+    load_model_from = r"weight_path"
 
-    inference_dir = "./output/STARE/1000epoch_vitpos/test/epoch1000"
+    inference_dir = "inference_path"
     os.makedirs(inference_dir, exist_ok=True)
 
     metrics_file = os.path.join(inference_dir, "test_metrics.txt")
