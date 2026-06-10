@@ -28,30 +28,6 @@ The current implementation includes:
 
 CC-DiT combines conditional cold diffusion restoration, hierarchical attention calibration, and global feature modeling for retinal vessel segmentation.
 
----
-
-## Repository Structure
-
-```text
-CC-DiT/
-├── .vscode/
-├── figures/
-├── gycutils/
-├── model/
-│   ├── SegDiffusion.py
-│   ├── loss.py
-│   ├── datasets.py
-│   ├── cldice.py
-│   ├── soft_skeleton.py
-│   └── ...
-├── data_augmentation.py
-├── train.py
-├── sample.py
-├── requirements.txt
-└── README.md
-```
-
----
 
 ## Requirements
 
